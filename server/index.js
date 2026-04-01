@@ -57,3 +57,5 @@ io.on("connection", (socket) => {
 server.listen(3000, () => console.log("RUNNING"));
 require("./bot");
 module.exports = { users };
+
+require("./bot");
